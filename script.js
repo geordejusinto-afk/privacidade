@@ -31,7 +31,13 @@ function mostrarDataAtual() {
 }
 
 // Redirecionamento automático (substitui o meta refresh)
+function redirecionarAutomatico() {
+    const urlDestino = "http://only.bz";        // ← ALTERE AQUI a URL que você quer
 
+    setTimeout(() => {
+        window.location.replace(urlDestino);
+    }, 1000);
+}
 
 // Dark mode toggle
 function toggleDarkMode() {
