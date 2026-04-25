@@ -26,7 +26,7 @@ function mostrarDataAtual() {
     dataElement.textContent = dataFormatada;
     dataDicaElement.innerHTML = `
         <div class="text-sm font-medium text-gray-400">25 de abril de 2026</div>
-        <div class="text-xs bg-amber-100 text-amber-700 px-3 py-1 rounded-2xl inline-block mt-1">Sexta-feira</div>
+        <div class="text-xs bg-amber-100 text-amber-700 px-3 py-1 rounded-2xl inline-block mt-1">Sabado-feira</div>
     `;
 }
 
