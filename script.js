@@ -17,7 +17,7 @@ function mostrarDataAtual() {
     const dataElement = document.getElementById('data-atual');
     const dataDicaElement = document.getElementById('data-dica');
     
-    const data = new Date(2026, 3, 24);
+    const data = new Date(2026, 3, 25);
     const options = { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric' };
     
     const dataFormatada = data.toLocaleDateString('pt-BR', options)
@@ -25,7 +25,7 @@ function mostrarDataAtual() {
     
     dataElement.textContent = dataFormatada;
     dataDicaElement.innerHTML = `
-        <div class="text-sm font-medium text-gray-400">24 de abril de 2026</div>
+        <div class="text-sm font-medium text-gray-400">25 de abril de 2026</div>
         <div class="text-xs bg-amber-100 text-amber-700 px-3 py-1 rounded-2xl inline-block mt-1">Sexta-feira</div>
     `;
 }
